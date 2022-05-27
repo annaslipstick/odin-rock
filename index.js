@@ -10,7 +10,7 @@ console.log(ComputerChoice, computerOpp, choice[computerOpp]);
 //Create function for player, let player pick an alternative from choice array.
 var playerChoice = prompt("Please choose Rock, Paper or Scissors");
 console.log(pHasChosen, playerChoice);
-if (playerChoice == "Rock"){
+if (playerChoice.toLowerCase() == "rock"){
     console.log("You have chosen Rock");
 }
     else {
